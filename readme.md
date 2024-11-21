@@ -2,7 +2,7 @@
 
 
 
-![compare_sota](D:\Users\user\Desktop\cvpr 2025\CVPR25_BeautyDiffusion\Figs\compare_sota.png)
+![compare_sota](Figs/compare_sota.png)
 
 
 
@@ -10,7 +10,7 @@
 
 # Method
 
-![overall](D:\Users\user\Desktop\cvpr 2025\CVPR25_BeautyDiffusion\Figs\overall.png)
+![overall](Figs/overall.png)
 
 Overview of the proposed BeautyDiffusion model for makeup transfer. Our method leverages a diffusion-based framework with integrated facial parsing and makeup embedding modules to enable precise and controllable makeup application. By utilizing a conditional diffusion process, BeautyDiffusion avoids the need for adversarial training and paired datasets, producing high-fidelity results even in cases of significant spatial misalignment. The Makeup Condition Encoder extracts parsed facial features, integrating them into a latent space representation, while the Makeup Transfer Mechanism facilitates interaction between latent spaces, makeup conditions, and pseudo ground truth supervision. This framework effectively reconstructs facial features and makeup details from noise, achieving stable and rapid makeup transfer with minimal dataset requirements
 
